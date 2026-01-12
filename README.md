@@ -2,11 +2,16 @@
 
 ###
 
-<p align="left">Hello Nanba ,<br><br>Myself MUKESHWAR RAUDRA I am an aspiring AIML Engineer and Quantum Computing Engineer with a strong passion for technology and innovation .  learning phase, I am focused on exploring the world of Artificial Intelligence, Web Development, Quantum Computing . I am First Year @SRM IST and have built a foundation in HTML, CSS, JavaScript, Java, Python, and MySQL.</p>
+<p align="left">
+Hello Nanba ,<br><br>
+Myself <b>MUKESHWAR RAUDRA</b>. I am an aspiring <b>AI/ML Engineer</b> and <b>Quantum Computing Engineer</b> with a strong passion for technology and innovation.  
+Currently in my learning phase, I am exploring the world of <b>Artificial Intelligence, Web Development, and Quantum Computing</b>.  
+I am a <b>First Year student @ SRM IST</b> and have built a foundation in <b>HTML, CSS, JavaScript, Java, Python, and MySQL</b>.
+</p>
 
 ###
 
-<img align="right" height="136" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm41bHAzbHgwMHQ2YmpsZ2RibXZkNzl2bmJ4NWEycTk5Y2psNTMyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif"  />
+<img align="right" height="136" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm41bHAzbHgwMHQ2YmpsZ2RibXZkNzl2bmJ4NWEycTk5Y2psNTMyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif" />
 
 ###
 
@@ -14,64 +19,78 @@
 
 ###
 
-<p align="left">😎 Ex - Google Student Mentor<br>🤟🏻 TN Secretary @HYPEDIN <br>😊 Campus Ambassador @IIT Delhi <br>♚  Chess Player Elo (900)</p>
+<p align="left">
+😎 Ex - Google Student Mentor <br>
+🤟🏻 TN Secretary @ HYPEDIN <br>
+😊 Campus Ambassador @ IIT Delhi <br>
+♚ Chess Player (ELO ~900)
+</p>
 
 ###
 
-<h2 align="center"><C O D E  with></h2>
+<h2 align="center">&lt; C O D E  with /&gt;</h2>
 
 ###
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="39" alt="javascript logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="39" alt="html5 logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="39" alt="css logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="39" alt="git logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="39" alt="vscode logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="39" alt="numpy logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="39" alt="opencv logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="39" alt="python logo"  />
-  <img width="17" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="39" alt="mysql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="39"/>
+  <img width="17"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="39"/>
 </div>
 
 ###
 
-<h2 align="center">Social Media  📹</h2>
+<h2 align="center">Social Media 📹</h2>
 
 ###
 
 <div align="center">
   <a href="https://www.linkedin.com/in/mukeshwar-raudra/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="31" alt="linkedin logo"  />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="31"/>
   </a>
   <a href="https://www.instagram.com/mukeshwar_raudra/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="31" alt="instagram logo"  />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="31"/>
   </a>
-  <a href="Mukeshwarraudra369@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="31" alt="gmail logo"  />
+  <a href="mailto:Mukeshwarraudra369@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="31"/>
   </a>
   <a href="https://medium.com/@mukeshwarraudra369" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="31" alt="medium logo"  />
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" height="31"/>
   </a>
 </div>
 
-###
+---
+
+<h2 align="center">GitHub Stats 📊</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=P-r-o-f-e-s-s-o-r&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=P-r-o-f-e-s-s-o-r&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+
+![](https://github-readme-stats.vercel.app/api?username=P-r-o-f-e-s-s-o-r&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+
+<br/>
+
+![](https://nirzak-streak-stats.vercel.app/?user=P-r-o-f-e-s-s-o-r&theme=dark&hide_border=false)
+
+<br/>
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=P-r-o-f-e-s-s-o-r&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
 </div>
 
-###
+---
 
 <img src="https://raw.githubusercontent.com/P-r-o-f-e-s-s-o-r/P-r-o-f-e-s-s-o-r/output/snake.svg" alt="Snake animation" />
-
-###
