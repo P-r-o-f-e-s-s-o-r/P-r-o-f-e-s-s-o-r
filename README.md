@@ -92,5 +92,3 @@ I am a <b>First Year student @ SRM IST</b> and have built a foundation in <b>HTM
 </div>
 
 ---
-
-<img src="https://raw.githubusercontent.com/P-r-o-f-e-s-s-o-r/P-r-o-f-e-s-s-o-r/output/snake.svg" alt="Snake animation" />
