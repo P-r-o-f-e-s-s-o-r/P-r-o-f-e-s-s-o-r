@@ -5,11 +5,13 @@
 
 <br/>
 
-<!-- BADGES / HIGHLIGHT STATUS -->
+<!-- BADGES / HIGHLIGHT STATUS & PORTFOLIO -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Role-Aspiring%20Quantum%20Computing%20Engineer-FF4D4D?style=for-the-badge&logo=quantum&logoColor=white" />
-  <img src="https://img.shields.io/badge/Education-Freshman%20%40%20SRM%20IST-00F2FE?style=for-the-badge&logo=education&logoColor=white" />
-  <img src="https://img.shields.io/badge/Persona-Professor-9B51E0?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://mukeshwar-raudra.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-mukeshwar--raudra.vercel.app-FF4D4D?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <img src="https://img.shields.io/badge/Role-Aspiring%20Quantum%20Computing%20Engineer-00F2FE?style=for-the-badge&logo=quantum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Education-Freshman%20%40%20SRM%20IST-9B51E0?style=for-the-badge&logo=education&logoColor=white" />
 </div>
 
 <br/>
@@ -23,6 +25,10 @@
 </p>
 
 <p>
+  🌐 <b>Portfolio &amp; Personal Website</b>: <a href="https://mukeshwar-raudra.vercel.app/" target="_blank"><b>https://mukeshwar-raudra.vercel.app/</b></a>
+</p>
+
+<p>
   <i>"I strongly believe that true growth comes from building, experimenting, and constantly learning. My goal is to transform my ideas into impactful tech solutions while continuing to evolve as a developer and AI model builder."</i>
 </p>
 
@@ -32,17 +38,42 @@
 
 <br/>
 
+<!-- GIF 1: AFTER ABOUT ME -->
+<div align="center">
+  <a href="https://giphy.com/gifs/coding-programming-ninjas-CcwLAV11cALh3OuEJ5" target="_blank">
+    <img src="https://media.giphy.com/media/CcwLAV11cALh3OuEJ5/giphy.gif" width="480" height="144" alt="Coding Ninjas GIF" style="border-radius: 8px;" />
+  </a>
+  <br/>
+  <sub><a href="https://giphy.com/gifs/coding-programming-ninjas-CcwLAV11cALh3OuEJ5" target="_blank">via GIPHY</a></sub>
+</div>
+
+<br/>
+
 ---
 
 ## 🏆 Roles & Credentials
 
-<ul>
-  <li>🎓 <b>Freshman @ SRM IST</b></li>
-  <li>🌟 <b>Ex - Google Mentor</b></li>
-  <li>🚀 <b>Codesapiens Community Lead</b></li>
-  <li>💡 <b>Founder @ Nexora</b></li>
-  <li>⚛️ <b>IBM Qiskit Advocate</b></li>
-</ul>
+<!-- GIF 2: LEFT SIDE OF ROLES & CREDENTIALS -->
+<table border="0" width="100%">
+  <tr>
+    <td width="45%" align="center" valign="middle">
+      <a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk" target="_blank">
+        <img src="https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif" width="100%" alt="Pudgy Penguin Coding GIF" style="border-radius: 10px;" />
+      </a>
+      <br/>
+      <sub><a href="https://giphy.com/gifs/pudgypenguins-data-code-coding-2IudUHdI075HL02Pkk" target="_blank">via GIPHY</a></sub>
+    </td>
+    <td width="55%" valign="middle">
+      <ul>
+        <li>🎓 <b>Freshman @ SRM IST</b></li>
+        <li>🌟 <b>Ex - Google Mentor</b></li>
+        <li>🚀 <b>Codesapiens Community Lead</b></li>
+        <li>💡 <b>Founder @ Nexora</b></li>
+        <li>⚛️ <b>IBM Qiskit Advocate</b></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -76,8 +107,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./snake.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/P-r-o-f-e-s-s-o-r/P-r-o-f-e-s-s-o-r/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/P-r-o-f-e-s-s-o-r/P-r-o-f-e-s-s-o-r/output/github-contribution-grid-snake.svg">
     <img alt="Red Snake Contribution Animation" src="./snake.svg" width="100%">
   </picture>
 </div>
@@ -105,6 +136,10 @@
 ## 🌐 Connect With Me
 
 <div align="center">
+  <a href="https://mukeshwar-raudra.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/mukeshwar-raudra/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>

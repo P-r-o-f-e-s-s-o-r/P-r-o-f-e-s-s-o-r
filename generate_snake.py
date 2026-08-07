@@ -1,105 +1,154 @@
 import math
+import random
 
-# Generate a red snake animation SVG matching Platane/snk red theme
+# Generate a fully ANIMATED Red Snake SVG matching Platane/snk output format
 width = 850
 height = 200
 
-# Snake color palette specified by user: Red Snake
-snake_head_color = "#ff2a2a"
-snake_body_color = "#ff4d4d"
-snake_tail_color = "#991b1b"
-
-# Grid setup
 cols = 53
 rows = 7
-cell_size = 12
+cell_size = 11
 cell_gap = 4
+start_x = 30
+start_y = 45
 
-start_x = 25
-start_y = 40
+random.seed(101)
 
+# Generate cells
 cells_svg = ""
-# Generate grid cells with dark background and red activity spots
-import random
-random.seed(42)
-
 for c in range(cols):
     for r in range(rows):
         cx = start_x + c * (cell_size + cell_gap)
         cy = start_y + r * (cell_size + cell_gap)
-        
-        # Contribution intensity
         v = random.random()
-        if v < 0.5:
-            fill = "#161b22" # empty dot
+        if v < 0.55:
+            fill = "#161b22"
         elif v < 0.75:
-            fill = "#3b1219" # low
-        elif v < 0.9:
-            fill = "#7a1c27" # medium
-        elif v < 0.97:
-            fill = "#b92b3a" # high
+            fill = "#3b1219"
+        elif v < 0.90:
+            fill = "#7a1c27"
+        elif v < 0.96:
+            fill = "#b92b3a"
         else:
-            fill = "#ff4d4d" # very high
-            
-        cells_svg += f'  <rect x="{cx}" y="{cy}" width="{cell_size}" height="{cell_size}" rx="2" fill="{fill}" />\n'
+            fill = "#ff4d4d"
+        cells_svg += f'    <rect x="{cx}" y="{cy}" width="{cell_size}" height="{cell_size}" rx="2" fill="{fill}" />\n'
 
-# Red Snake path definition (S-curve traversing the contribution graph)
-snake_nodes = [
-    (start_x + 35 * (cell_size + cell_gap) + 6, start_y + 2 * (cell_size + cell_gap) + 6),
-    (start_x + 34 * (cell_size + cell_gap) + 6, start_y + 2 * (cell_size + cell_gap) + 6),
-    (start_x + 33 * (cell_size + cell_gap) + 6, start_y + 2 * (cell_size + cell_gap) + 6),
-    (start_x + 32 * (cell_size + cell_gap) + 6, start_y + 2 * (cell_size + cell_gap) + 6),
-    (start_x + 31 * (cell_size + cell_gap) + 6, start_y + 2 * (cell_size + cell_gap) + 6),
-    (start_x + 30 * (cell_size + cell_gap) + 6, start_y + 2 * (cell_size + cell_gap) + 6),
-    (start_x + 29 * (cell_size + cell_gap) + 6, start_y + 3 * (cell_size + cell_gap) + 6),
-    (start_x + 29 * (cell_size + cell_gap) + 6, start_y + 4 * (cell_size + cell_gap) + 6),
-]
+# Snake Animation Path
+# We define a multi-step keyframe animation moving the snake across the contribution graph
+# Snake consists of 6 segments (Head + 5 body parts)
+snake_svg = f'''
+    <!-- Animated Red Snake Group -->
+    <g id="snake-group">
+      <!-- Snake Segment 5 (Tail) -->
+      <circle class="snake-tail" r="4.5" fill="#991b1b" />
+      <!-- Snake Segment 4 -->
+      <circle class="snake-body-2" r="5" fill="#c53030" />
+      <!-- Snake Segment 3 -->
+      <circle class="snake-body-1" r="5.5" fill="#e53e3e" />
+      <!-- Snake Segment 2 -->
+      <circle class="snake-body-0" r="5.5" fill="#ff4d4d" />
+      <!-- Snake Segment 1 (Head) -->
+      <g class="snake-head">
+        <circle r="6" fill="#ff2a2a" filter="drop-shadow(0 0 5px #ff2a2a)" />
+        <!-- Eyes -->
+        <circle cx="2" cy="-2" r="1.5" fill="#ffffff" />
+        <circle cx="2" cy="2" r="1.5" fill="#ffffff" />
+        <circle cx="2.5" cy="-2" r="0.75" fill="#000000" />
+        <circle cx="2.5" cy="2" r="0.75" fill="#000000" />
+      </g>
+    </g>
+'''
 
-snake_body_svg = ""
-for idx, (sx, sy) in enumerate(snake_nodes):
-    r = 6 if idx == 0 else (5 if idx < len(snake_nodes)-1 else 4)
-    color = snake_head_color if idx == 0 else (snake_body_color if idx < len(snake_nodes)-2 else snake_tail_color)
-    glow = 'filter="drop-shadow(0 0 4px #ff2a2a)"' if idx == 0 else ''
-    snake_body_svg += f'  <circle cx="{sx}" cy="{sy}" r="{r}" fill="{color}" {glow} />\n'
+# CSS Animations for smooth movement across grid points
+# Path coordinates:
+# Waypoints across grid columns 5 to 45
+points = []
+# Row 1 left to right
+for col in range(5, 45, 2):
+    x = start_x + col * (cell_size + cell_gap) + 5
+    y = start_y + 1 * (cell_size + cell_gap) + 5
+    points.append((x, y))
+# Row 3 right to left
+for col in range(43, 5, -2):
+    x = start_x + col * (cell_size + cell_gap) + 5
+    y = start_y + 3 * (cell_size + cell_gap) + 5
+    points.append((x, y))
+# Row 5 left to right
+for col in range(7, 43, 2):
+    x = start_x + col * (cell_size + cell_gap) + 5
+    y = start_y + 5 * (cell_size + cell_gap) + 5
+    points.append((x, y))
 
-# Snake eyes on head
-head_x, head_y = snake_nodes[0]
-snake_body_svg += f'  <circle cx="{head_x - 2}" cy="{head_y - 2}" r="1.5" fill="#ffffff" />\n'
-snake_body_svg += f'  <circle cx="{head_x - 2}" cy="{head_y + 2}" r="1.5" fill="#ffffff" />\n'
-snake_body_svg += f'  <circle cx="{head_x - 3}" cy="{head_y - 2}" r="0.75" fill="#000000" />\n'
-snake_body_svg += f'  <circle cx="{head_x - 3}" cy="{head_y + 2}" r="0.75" fill="#000000" />\n'
+# Generate CSS keyframes for head and body delays
+head_kf = ""
+total_pts = len(points)
+for i, (px, py) in enumerate(points):
+    pct = round((i / (total_pts - 1)) * 100, 2)
+    head_kf += f"        {pct}% {{ transform: translate({px}px, {py}px); }}\n"
+
+css_styles = f'''
+      .bg {{ fill: #0d1117; rx: 14px; stroke: #30363d; stroke-width: 1.5px; }}
+      .title {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #ff4d4d; font-weight: 700; letter-spacing: 0.5px; }}
+      .legend {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 10px; fill: #8b949e; }}
+
+      .snake-head {{
+        animation: moveSnake 12s infinite ease-in-out;
+      }}
+      .snake-body-0 {{
+        animation: moveSnake 12s infinite ease-in-out;
+        animation-delay: -0.15s;
+      }}
+      .snake-body-1 {{
+        animation: moveSnake 12s infinite ease-in-out;
+        animation-delay: -0.30s;
+      }}
+      .snake-body-2 {{
+        animation: moveSnake 12s infinite ease-in-out;
+        animation-delay: -0.45s;
+      }}
+      .snake-tail {{
+        animation: moveSnake 12s infinite ease-in-out;
+        animation-delay: -0.60s;
+      }}
+
+      @keyframes moveSnake {{
+{head_kf}
+      }}
+'''
 
 snake_svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%">
   <defs>
     <style>
-      .bg {{ fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 1px; }}
-      .title {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #8b949e; font-weight: 600; }}
-      .legend {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 10px; fill: #8b949e; }}
+{css_styles}
     </style>
   </defs>
 
   <rect class="bg" x="2" y="2" width="{width-4}" height="{height-4}" />
 
-  <text x="25" y="25" class="title">🐍 Contribution Graph &amp; Red Snake</text>
+  <text x="30" y="28" class="title">🐍 Contribution Graph &amp; Red Snake Game</text>
 
-  <!-- Grid -->
-  {cells_svg}
+  <!-- Grid Cells -->
+  <g>
+{cells_svg}
+  </g>
 
-  <!-- Snake -->
-  {snake_body_svg}
+  <!-- Animated Red Snake -->
+{snake_svg}
 
   <!-- Legend -->
-  <text x="{width - 180}" y="{height - 15}" class="legend">Less</text>
-  <rect x="{width - 155}" y="{height - 23}" width="10" height="10" rx="2" fill="#161b22" />
-  <rect x="{width - 140}" y="{height - 23}" width="10" height="10" rx="2" fill="#3b1219" />
-  <rect x="{width - 125}" y="{height - 23}" width="10" height="10" rx="2" fill="#7a1c27" />
-  <rect x="{width - 110}" y="{height - 23}" width="10" height="10" rx="2" fill="#b92b3a" />
-  <rect x="{width - 95}" y="{height - 23}" width="10" height="10" rx="2" fill="#ff4d4d" />
-  <text x="{width - 80}" y="{height - 15}" class="legend">More</text>
+  <g transform="translate({width - 200}, {height - 20})">
+    <text x="0" y="10" class="legend">Less</text>
+    <rect x="30" y="1" width="11" height="11" rx="2" fill="#161b22" />
+    <rect x="46" y="1" width="11" height="11" rx="2" fill="#3b1219" />
+    <rect x="62" y="1" width="11" height="11" rx="2" fill="#7a1c27" />
+    <rect x="78" y="1" width="11" height="11" rx="2" fill="#b92b3a" />
+    <rect x="94" y="1" width="11" height="11" rx="2" fill="#ff4d4d" />
+    <text x="112" y="10" class="legend">More</text>
+  </g>
 </svg>
 '''
 
 with open('snake.svg', 'w', encoding='utf-8') as f:
     f.write(snake_svg_content)
 
-print("Generated snake.svg successfully!")
+print("Generated animated snake.svg successfully!")
