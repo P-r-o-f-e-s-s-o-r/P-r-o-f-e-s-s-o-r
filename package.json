@@ -1,0 +1,14 @@
+{
+  "name": "p-r-o-f-e-s-s-o-r-profile",
+  "version": "1.0.0",
+  "description": "GitHub Profile README for J MUKESHWAR RAUDRA (Professor)",
+  "type": "module",
+  "scripts": {
+    "generate-header": "python generate_header.py",
+    "generate-snake-py": "python generate_snake.py",
+    "generate-snake-js": "node generate-snake.js"
+  },
+  "dependencies": {
+    "generate-snake-animation": "^2.6.0"
+  }
+}

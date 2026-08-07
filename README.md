@@ -1,98 +1,128 @@
-<h1 align="center">Hi, I'm Mukeshwar Raudra 👋</h1>
-<h3 align="center">Aspiring AI/ML Engineer | Quantum Computing Enthusiast</h3>
-
-<p align="center">
-  First-year undergraduate at <b>SRM Institute of Science and Technology</b><br>
-  Passionate about building intelligent systems and exploring next-generation computing
-</p>
-
----
-
-<img align="right" height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm41bHAzbHgwMHQ2YmpsZ2RibXZkNzl2bmJ4NWEycTk5Y2psNTMyZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif" />
-
-<h2>👨‍💻 About Me</h2>
-
-<p>
-I am an aspiring <b>Artificial Intelligence & Machine Learning Engineer</b> with a growing interest in 
-<b>Quantum Computing</b>. Currently in my learning phase, I enjoy exploring the intersection of 
-AI, Web Technologies, and computational science.
-</p>
-
-<ul>
-  <li>🎓 First Year B.Tech Student @ SRM IST</li>
-  <li>🧠 Strong foundation in Python, Java, Web Development & Databases</li>
-  <li>🚀 Actively building projects and expanding problem-solving skills</li>
-</ul>
-
----
-
-<h2>🏆 Experience & Roles</h2>
-
-<ul>
-  <li>Ex – Google Student Mentor</li>
-  <li>TN Secretary @ HYPEDIN</li>
-  <li>Campus Ambassador @ IIT Delhi</li>
-  <li>Chess Player (ELO ~900)</li>
-</ul>
-
----
-
-<h2 align="center">🛠️ Tech Stack</h2>
-
+<!-- TYPEWRITER ANIMATED HEADER -->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40"/>
-  <img width="16"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40"/>
+  <img src="./header.svg" width="100%" alt="Header Typewriter Animation" />
 </div>
 
+<br/>
+
+<!-- BADGES / HIGHLIGHT STATUS -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Role-Aspiring%20Quantum%20Computing%20Engineer-FF4D4D?style=for-the-badge&logo=quantum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Education-Freshman%20%40%20SRM%20IST-00F2FE?style=for-the-badge&logo=education&logoColor=white" />
+  <img src="https://img.shields.io/badge/Persona-Professor-9B51E0?style=for-the-badge&logo=github&logoColor=white" />
+</div>
+
+<br/>
+
 ---
 
-<h2 align="center">🌐 Connect With Me</h2>
+## 👨‍💻 About Me
+
+<p>
+  Myself <b>J MUKESHWAR RAUDRA</b> (also known as <i>Professor</i>). I am an aspiring <b>Quantum Computing Engineer</b> with a strong passion for technology and innovation. Currently in my learning phase, I am focused on exploring the world of <b>Artificial Intelligence</b>, <b>Web Development</b>, and <b>Quantum Computing</b>. I am a <b>Freshman @ SRM IST</b>.
+</p>
+
+<p>
+  <i>"I strongly believe that true growth comes from building, experimenting, and constantly learning. My goal is to transform my ideas into impactful tech solutions while continuing to evolve as a developer and AI model builder."</i>
+</p>
+
+<p>
+  🚀 I am driven by the vision to make a mark in the tech world and be recognized for my work. I welcome opportunities to connect with People!
+</p>
+
+<br/>
+
+---
+
+## 🏆 Roles & Credentials
+
+<ul>
+  <li>🎓 <b>Freshman @ SRM IST</b></li>
+  <li>🌟 <b>Ex - Google Mentor</b></li>
+  <li>🚀 <b>Codesapiens Community Lead</b></li>
+  <li>💡 <b>Founder @ Nexora</b></li>
+  <li>⚛️ <b>IBM Qiskit Advocate</b></li>
+</ul>
+
+<br/>
+
+---
+
+## 🛠️ My Tech Stack
+
+### 💻 Core Programming Languages & Web Technologies
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,cpp,java,js,css,react,mysql&theme=dark" alt="Skill Icons" />
+  </a>
+</div>
+
+<br/>
+
+### 🧠 Quantum, AI & Data Science Tools
+<div align="center">
+  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1C1C1C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
+</div>
+
+<br/>
+
+---
+
+## 🐍 Contribution Snake Game
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./snake.svg">
+    <img alt="Red Snake Contribution Animation" src="./snake.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img src="https://github-stats-extended.vercel.app/api?username=P-r-o-f-e-s-s-o-r&theme=dark&hide_border=true" alt="Anurag's GitHub stats" />
+  </a>
+  <br/><br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=P-r-o-f-e-s-s-o-r&theme=dark&hide_border=true" alt="GitHub Streak Stats" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=P-r-o-f-e-s-s-o-r&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+</div>
+
+<br/>
+
+---
+
+## 🌐 Connect With Me
 
 <div align="center">
   <a href="https://www.linkedin.com/in/mukeshwar-raudra/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
   <a href="https://www.instagram.com/mukeshwar_raudra/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="mailto:Mukeshwarraudra369@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  &nbsp;
+  <a href="https://x.com/Professor_20613" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter%2FX-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X" />
   </a>
-  <a href="https://medium.com/@mukeshwarraudra369" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/>
+  &nbsp;
+  <a href="https://discord.com" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-professor__77915-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord User" />
   </a>
 </div>
 
----
-
-<h2 align="center">📊 GitHub Analytics</h2>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=P-r-o-f-e-s-s-o-r&show_icons=true&theme=dark&hide_border=true" />
-
-<br><br>
-
-<img src="https://nirzak-streak-stats.vercel.app/?user=P-r-o-f-e-s-s-o-r&theme=dark&hide_border=true" />
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=P-r-o-f-e-s-s-o-r&layout=compact&theme=dark&hide_border=true" />
-
-</div>
+<br/>
 
 ---
 
