@@ -21,7 +21,7 @@
 ## 👨‍💻 About Me
 
 <p>
-  Myself <b>J MUKESHWAR RAUDRA</b> (also known as <i>Professor</i>). I am an aspiring <b>Quantum Computing Engineer</b> with a strong passion for technology and innovation. Currently in my learning phase, I am focused on exploring the world of <b>Artificial Intelligence</b>, <b>Web Development</b>, and <b>Quantum Computing</b>. I am a <b>Freshman @ SRM IST</b>.
+  Myself <b>J MUKESHWAR RAUDRA</b> (also known as <i>Professor</i>). I am an aspiring <b>Quantum Computing Engineer</b> with a strong passion for technology and innovation. Currently in my learning phase, I am focused on exploring the world of <b>Artificial Intelligence</b>, <b>Web Development</b>, and <b>Quantum Computing</b>. I am a <b>Sophomore @ SRM IST</b>.
 </p>
 
 <p>
