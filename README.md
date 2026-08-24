@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Portfolio-mukeshwar--raudra.vercel.app-FF4D4D?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <img src="https://img.shields.io/badge/Role-Aspiring%20Quantum%20Computing%20Engineer-00F2FE?style=for-the-badge&logo=quantum&logoColor=white" />
-  <img src="https://img.shields.io/badge/Education-Freshman%20%40%20SRM%20IST-9B51E0?style=for-the-badge&logo=education&logoColor=white" />
+  <img src="https://img.shields.io/badge/Education-Sophomore%20%40%20SRM%20IST-9B51E0?style=for-the-badge&logo=education&logoColor=white" />
 </div>
 
 <br/>
